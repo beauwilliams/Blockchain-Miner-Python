@@ -55,7 +55,7 @@ if __name__=='__main__':
     Alice->Bob->10
     Bob->Janet->60
     '''
-    difficulty=4 # try changing this to higher number and you will see it will take more time for mining as difficulty increases
+    difficulty=5 # try changing this to higher number and you will see it will take more time for mining as difficulty increases
     start = time.time()
     print("start mining")
     new_hash = mine(5,transactions,'0000000xa036944e29568d0cff17edbe038f81208fecf9a66be9a2b8321c6ec7', difficulty)
